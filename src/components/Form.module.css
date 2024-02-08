@@ -1,0 +1,49 @@
+.form{
+    background-color: #FDE992;
+    color: black;
+    width: 55%;
+    max-width: 90%;
+    margin: 3rem auto;
+    margin-top: 1rem;
+    padding: 2rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.form label{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.form input{
+    margin-left: 1rem;
+}
+
+.form span{
+    margin-left: 5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+p{
+    justify-content: center;
+}
+
+.form button{
+    display: inline-block;
+    text-align: center;
+    font-weight: 750;
+    width: 20%;
+    height: 2rem;
+    color: black;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.form button:hover{
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
